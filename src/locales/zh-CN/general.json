@@ -1,0 +1,152 @@
+{
+  "actions": {
+    "add": "添加",
+    "change": "更改",
+    "create": "创建",
+    "login": "登录",
+    "revert": "还原",
+    "search": "搜索",
+    "success": "成功",
+    "update": "更新"
+  },
+  "form": {
+    "credentials": {
+      "account-id": "账户 ID",
+      "device-id": "设备 ID",
+      "secret": "密钥",
+      "login": {
+        "label": "粘贴您的代码",
+        "input": {
+          "placeholder": "例如: {{code}}"
+        },
+        "get-code": "<0>获取代码</0> <1 />"
+      }
+    },
+    "accounts": {
+      "placeholder": "在 {{total}} 个账户中搜索",
+      "placeholder_private": "在您的账户中搜索",
+      "search-empty": "未找到账户",
+      "select": "选择账户",
+      "selected": "账户已选择",
+      "no-available": "没有可用账户",
+      "no-linked": "没有关联账户",
+      "no-options": "没有账户",
+      "no-registered-accounts": "尚未注册账户"
+    },
+    "multi": {
+      "select": {
+        "accounts": "选择一些账户",
+        "tags": "选择一些标签",
+        "bulk-note": "已选择批量标签，将使用所有启动器账户。"
+      }
+    },
+    "player": {
+      "search-empty": "未找到玩家",
+      "recently": {
+        "empty-placeholder": "没有最近的玩家",
+        "search-placeholder": "在 {{total}} 个玩家中搜索",
+        "select-placeholder": "选择一个最近的玩家"
+      }
+    },
+    "search-account": {
+      "label": "通过账户 ID 或显示名称（epic, xbl 或 psn）搜索玩家",
+      "input": {
+        "placeholder": "例如: 示例"
+      }
+    }
+  },
+  "information": {
+    "account-id": "账户 ID:",
+    "power-level": "能力等级:",
+    "commander-level": "指挥官等级:",
+    "boosted-xp": "加成经验值:",
+    "days-logged-in": "登录天数:",
+    "collection-book-level": "收藏图鉴等级:",
+    "personal-xp-boosts": "个人经验值加成:",
+    "teammate-xp-boosts": "队友经验值加成:",
+    "founder-status": "创始人状态:"
+  },
+  "version": {
+    "title": "新版本 {{version}}",
+    "description": "您可以从此处下载新版本 (.exe 文件):"
+  },
+  "community-info": {
+    "message": "加入我们的 <2>Discord 社区<1/></2>，了解更多即将更新的内容！！！"
+  },
+  "founder": {
+    "non-founder": "非创始人",
+    "founder": "创始人",
+    "standard": "标准版",
+    "deluxe": "豪华版",
+    "super-deluxe": "超级豪华版",
+    "limited": "限量版",
+    "ultimate": "终极版"
+  },
+  "launch-game": {
+    "button": "启动游戏",
+    "notifications": {
+      "success": "游戏已使用账户 {{name}} 启动",
+      "error": "使用账户 {{name}} 启动游戏时发生错误，请稍后重试"
+    }
+  },
+  "separators": {
+    "or": "或"
+  },
+  "sort": {
+    "newest": "按最新排序"
+  },
+  "statuses": {
+    "error": "错误",
+    "loading": "加载中",
+    "not-found": "未找到",
+    "owned": "已拥有",
+    "claimed": "已领取",
+    "used": "已使用"
+  },
+  "validations": {
+    "form": {
+      "input": {
+        "account-id": {
+          "invalid": "❌ 无效的账户 ID"
+        },
+        "device-id": {
+          "invalid": "❌ 无效的设备 ID"
+        },
+        "secret": {
+          "invalid": "❌ 无效的密钥"
+        },
+        "code": {
+          "invalid": "❌ 无效的代码"
+        }
+      }
+    },
+    "screenshot": {
+      "success": "截图已生成并复制到剪贴板",
+      "error": "无法生成截图，请稍后重试"
+    }
+  },
+  "account-selected": "已选择账户: <2>{{name}}</2>",
+  "boosts": "加成",
+  "credits": "积分",
+  "current": "当前",
+  "date": "日期",
+  "first-claim": "首次领取: {{date}}",
+  "go-to-current-alerts": "转到当前警报",
+  "go-to-top": "回到顶部",
+  "history": "历史",
+  "hide-information": "隐藏信息",
+  "note": "备注",
+  "show-information": "显示隐藏信息",
+  "ip-address": "IP 地址",
+  "last-played": "上次游戏时间: {{date}}",
+  "location": "位置",
+  "missions": "任务",
+  "public-stats": "注意: 此用户已禁用“公开游戏统计”，无法显示更多信息。",
+  "settings": "设置",
+  "summary": "摘要",
+  "unknown-user": "未知用户",
+  "unknown": "未知",
+  "update-information": "更新信息",
+  "user-agent": "用户代理",
+  "generate-screenshot": "生成截图"
+}

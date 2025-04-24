@@ -13,4 +13,8 @@ export const availableLanguages: Array<{
     id: Language.Spanish,
     title: 'Español',
   },
+  {
+    id: Language.Chinese,
+    title: '简体中文',
+  },
 ]

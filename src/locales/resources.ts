@@ -130,6 +130,72 @@ const es419 = {
   },
 }
 
+
+/**
+ * @file zh-CN
+ */
+import zhCN_sidebar from './zh-CN/sidebar.json'
+import zhCN_general from './zh-CN/general.json'
+import zhCN_history from './zh-CN/history.json'
+import zhCN_settings from './zh-CN/settings.json'
+import zhCN_alerts from './zh-CN/home.json'
+import zhCN_zones from './zh-CN/zones.json'
+import zhCN_stwOperations_AutoKick from './zh-CN/stw-operations/auto-kick.json'
+import zhCN_stwOperations_HomebaseName from './zh-CN/stw-operations/homebase-name.json'
+import zhCN_stwOperations_SaveQuests from './zh-CN/stw-operations/save-quests.json'
+import zhCN_stwOperations_Party from './zh-CN/stw-operations/party.json'
+import zhCN_stwOperations_Urns from './zh-CN/stw-operations/urns.json'
+import zhCN_stwOperations_XPBoosts from './zh-CN/stw-operations/xpboosts.json'
+import zhCN_stwOperations_Llamas from './zh-CN/stw-operations/llamas.json'
+import zhCN_stwOperations_Unlock from './zh-CN/stw-operations/unlock.json'
+import zhCN_accountManagement_VBucksInformation from './zh-CN/account-management/vbucks-information.json'
+import zhCN_accountManagement_RedeemCodes from './zh-CN/account-management/redeem-codes.json'
+import zhCN_accountManagement_DevicesAuth from './zh-CN/account-management/devices-auth.json'
+import zhCN_accountManagement_EpicSettings from './zh-CN/account-management/epic-settings.json'
+import zhCN_advancedMode_MatchmakingTrack from './zh-CN/advanced-mode/matchmaking-track.json'
+import zhCN_advancedMode_WorldInfo from './zh-CN/advanced-mode/world-info.json'
+import zhCN_myAccounts_General from './zh-CN/accounts/general.json'
+import zhCN_myAccounts_AuthCode from './zh-CN/accounts/auth-code.json'
+import zhCN_myAccounts_ExchangeCode from './zh-CN/accounts/exchange-code.json'
+import zhCN_myAccounts_DeviceAuth from './zh-CN/accounts/device-auth.json'
+import zhCN_myAccounts_RemoveAccount from './zh-CN/accounts/remove-account.json'
+
+const zhCN = {
+  sidebar: zhCN_sidebar,
+  general: zhCN_general,
+  history: zhCN_history,
+  settings: zhCN_settings,
+  alerts: zhCN_alerts,
+  zones: zhCN_zones,
+  'stw-operations': {
+    'auto-kick': zhCN_stwOperations_AutoKick,
+    'homebase-name': zhCN_stwOperations_HomebaseName,
+    'save-quests': zhCN_stwOperations_SaveQuests,
+    party: zhCN_stwOperations_Party,
+    urns: zhCN_stwOperations_Urns,
+    xpboosts: zhCN_stwOperations_XPBoosts,
+    llamas: zhCN_stwOperations_Llamas,
+    unlock: zhCN_stwOperations_Unlock,
+  },
+  'account-management': {
+    'vbucks-information': zhCN_accountManagement_VBucksInformation,
+    'redeem-codes': zhCN_accountManagement_RedeemCodes,
+    'devices-auth': zhCN_accountManagement_DevicesAuth,
+    'epic-settings': zhCN_accountManagement_EpicSettings,
+  },
+  'advanced-mode': {
+    'matchmaking-track': zhCN_advancedMode_MatchmakingTrack,
+    'world-info': zhCN_advancedMode_WorldInfo,
+  },
+  accounts: {
+    general: zhCN_myAccounts_General,
+    'auth-code': zhCN_myAccounts_AuthCode,
+    'exchange-code': zhCN_myAccounts_ExchangeCode,
+    'device-auth': zhCN_myAccounts_DeviceAuth,
+    'remove-account': zhCN_myAccounts_RemoveAccount,
+  },
+}
+
 /**
  * Export resources
  */
@@ -137,9 +203,11 @@ const es419 = {
 export enum Language {
   English = 'en-US',
   Spanish = 'es-419',
+  Chinese = 'zh-CN',
 }
 
 export const resources: Resource = {
   [Language.English]: enUS,
   [Language.Spanish]: es419,
+  [Language.Chinese]: zhCN,
 }

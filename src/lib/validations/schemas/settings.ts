@@ -13,7 +13,7 @@ import { Language } from '../../../locales/resources'
 
 export const appLanguageSchema = z.object({
   i18n: z
-    .enum([Language.English, Language.Spanish])
+    .enum([Language.English, Language.Spanish, Language.Chinese])
     .default(Language.English),
 })
 
@@ -95,7 +95,7 @@ function createRangeValidation(config: {
 
       if (newValue < config.range.min || newValue > config.range.max) {
         context.addIssue({
-          message: `Delay value must between ${config.range.min} and ${config.range.max}`,
+          message: `Delay value must be between ${config.range.min} and ${config.range.max}`,
           code: 'custom',
         })
       }
