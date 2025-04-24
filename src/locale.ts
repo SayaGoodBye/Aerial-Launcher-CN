@@ -8,7 +8,7 @@ import { Language, resources } from './locales/resources'
 use(initReactI18next).init({
   resources,
   lng: defaultAppLanguage,
-  fallbackLng: Language.English,
+  fallbackLng: Language.Chinese,
 })
 
 export { i18n }

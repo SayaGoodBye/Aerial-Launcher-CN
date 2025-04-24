@@ -1,14 +1,14 @@
 {
-  "name": "aerial-launcher",
-  "productName": "Aerial Launcher",
+  "name": "aerial-launcher-cn",
+  "productName": "Aerial Launcher CN",
   "description": "A Windows desktop application (based on Potato Launcher) to manage things on Fortnite STW",
-  "version": "1.11.0",
+  "version": "1.11.1",
   "author": {
-    "name": "Ciensprog"
+    "name": "Ciensprog/SayaGoodBye"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ciensprog/Aerial-Launcher"
+    "url": "https://github.com/SayaGoodBye/Aerial-Launcher-CN"
   },
   "license": "MIT",
   "keywords": [
@@ -91,7 +91,7 @@
     "@electron-forge/cli": "^7.3.1",
     "@electron-forge/maker-deb": "^7.3.1",
     "@electron-forge/maker-rpm": "^7.3.1",
-    "@electron-forge/maker-squirrel": "^7.3.1",
+    "@electron-forge/maker-squirrel": "^7.8.0",
     "@electron-forge/maker-zip": "^7.3.1",
     "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
     "@electron-forge/plugin-fuses": "^7.3.1",
@@ -110,7 +110,8 @@
     "@typescript-eslint/parser": "^7.4.0",
     "@vitejs/plugin-react-swc": "^3.6.0",
     "autoprefixer": "^10.4.20",
-    "electron": "29.1.6",
+    "electron": "^29.1.6",
+    "electron-packager": "^17.1.2",
     "eslint": "^8.57.1",
     "eslint-plugin-import": "^2.29.1",
     "postcss": "^8.4.49",
